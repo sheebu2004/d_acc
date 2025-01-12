@@ -49,7 +49,8 @@ const DrivingSchoolLanding = () => {
               <Button variant="ghost" className="w-full justify-start">Courses</Button>
               <Button variant="ghost" className="w-full justify-start">About</Button>
               <Button variant="ghost" className="w-full justify-start">Contact</Button>
-              <Button variant="outline" className="w-full justify-start">Sign In</Button>
+               <Button variant="outline"><Link href={'/signIn'}>Sign In</Link></Button>
+
             </div>
           </div>
         )}
